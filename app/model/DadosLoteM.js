@@ -1,0 +1,27 @@
+Ext.define('desloc.model.DadosLoteM',{
+    extend:'Ext.data.Model',
+    fields:[
+
+       {name:'mesref'},
+       {name:'numcad'},
+       {name:'nomfun'},
+       {name:'vlrpla'},
+       {name:'vlrpag'},
+       {name:'nomloc'},
+       {name:'numemp'},
+       {name:'codprg'},
+       {name:'numtit'},
+       {name:'codfor'},
+       {name:'codccu'},
+       {name:'ventit'},
+       {name:'codban'},
+       {name:'codage'},
+       {name:'numcta'},
+       {name:'numseq'}, 
+       {name:'datger'},
+       {name:'datpla'},
+       {name:'tiptrp'},
+       {name:'destrans'},
+       {name:'vlrsld'}
+    ]
+});
